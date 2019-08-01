@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HKRouterModule_Example' do
+  pod 'HKRouterModule', :path => '../'
+
+  target 'HKRouterModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
