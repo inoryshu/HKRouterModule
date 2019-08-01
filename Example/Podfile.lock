@@ -1,0 +1,16 @@
+PODS:
+  - HKRouterModule (0.1.0)
+
+DEPENDENCIES:
+  - HKRouterModule (from `../`)
+
+EXTERNAL SOURCES:
+  HKRouterModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HKRouterModule: 1a0f1647c521f0cd58fed2087062733dcf626389
+
+PODFILE CHECKSUM: 98b191b85c097a5bb24d1ce66b7ade570bfc1738
+
+COCOAPODS: 1.7.5
