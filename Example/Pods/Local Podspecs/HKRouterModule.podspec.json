@@ -1,7 +1,7 @@
 {
   "name": "HKRouterModule",
-  "version": "0.1.4",
-  "summary": "A short description of HKRouterModule.",
+  "version": "0.1.6",
+  "summary": "一个简单的项目自用解耦跳转组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/inoryshu/HKRouterModule",
   "license": {
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/inoryshu/HKRouterModule.git",
-    "tag": "0.1.4"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HKRouterModule/Classes/**/*"
+  "source_files": "HKRouterModule/Classes/**/*",
+  "dependencies": {
+    "HKCommonModule": [
+
+    ]
+  }
 }

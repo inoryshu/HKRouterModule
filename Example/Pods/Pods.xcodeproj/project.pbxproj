@@ -7,20 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B1B45711DBF0562EBA2CFC332F61B6 /* HKRouterModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1700DE196A226A67EA68BEF96B7B5FC9 /* HKRouterModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08B96D73E90EAD63A4C669CD4E0FFD27 /* UIImageView+HKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8740412377BDD17FB8FA66B6B832FCC0 /* UIImageView+HKAdd.m */; };
 		1592EF6897625F87C4CF036C4A90287F /* Pods-HKRouterModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B838886A0B7D892A403B04DCEC8905C /* Pods-HKRouterModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28315178BEDAD86CFAAAA8D1EE0E746B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2BD04AA628C9157E99AB970A35D274FB /* UIImage+HKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF69354EB6800296DEE7968C6CDE73E /* UIImage+HKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368DF3AF944EC2DDE7E3A9D7F6412F9C /* HKCommonModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA931B310B221A722EA9CFC50295E2A0 /* HKCommonModule-dummy.m */; };
+		3826A053C21CBA2CD41337B6AE7D80F1 /* HKRouterModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D1E08FA8021675D1545228BEFC0E /* HKRouterModule-dummy.m */; };
 		3F30BDD3B2C646A4494D9F0FCA7E661F /* Pods-HKRouterModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D41F963B5067EA3422AE60EA015BCCB /* Pods-HKRouterModule_Tests-dummy.m */; };
-		5F33A0FE994934DA716E230D985922E9 /* HKRouterModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D1E08FA8021675D1545228BEFC0E /* HKRouterModule-dummy.m */; };
-		62B4C064A9B4D48FE987DC79536B2E30 /* Pods-HKRouterModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37963222730918A0E30935A1519E7160 /* Pods-HKRouterModule_Example-dummy.m */; };
-		B6738B50B59F04DFB4137BA3FC739596 /* Pods-HKRouterModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 848752A6E086F6EF52AFB51CB1B6F55E /* Pods-HKRouterModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC9EE010C833E85801CD40B7B1C0B0C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D1FA022795BBB5237BA7847E4E8B75A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E3A36E49051ACEAD9753B0261AE6C646 /* HKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA846D2A9335CC47C46930FBE49B158C /* HKRouter.m */; };
-		F3A1E80BB1FF77718DFEB44EB49B2A6C /* HKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3112DB244509F34B96030CC97EB12958 /* HKRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555FFE2DD0BB906E2D435E292ECCC949 /* UIImage+HKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D94030D31BA39732C92862CB6D9634EF /* UIImage+HKAdd.m */; };
+		5CA8B9EC149E1C71691AF9392563355A /* NSBundle+HKBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F880F86DFE8F061441445ACAAE0F94 /* NSBundle+HKBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E92B453152089EB1D9F342BDA9AE1D0 /* HKRouterModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1700DE196A226A67EA68BEF96B7B5FC9 /* HKRouterModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DE3B629DB9B254355CD6E4216854DC /* UIColor+HKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 154D3C742281FECC6CF52D7F276233B6 /* UIColor+HKColor.m */; };
+		7F2F30A0452CFE81E73EAA7A48A2AE90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C95C4F5576B82032DA2368B302F7DA /* Foundation.framework */; };
+		89A1E91CA343860748D13E79BF8DBA39 /* HKRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA846D2A9335CC47C46930FBE49B158C /* HKRouter.m */; };
+		964D00FBF61FBB074D559F0107A3FA54 /* UIStoryboard+HKStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D5F80EA9750313032A42C680DC1E947 /* UIStoryboard+HKStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9675ED20880FC7D1519F7056F0E8A2D8 /* UIView+HKAddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882CC86E3E736416EC759954F9C46268 /* UIView+HKAddView.m */; };
+		A581DFC3ADA9959495D1EC7933DA08A3 /* NSString+HKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 936A0A9188C947275FCEA803D60ECE98 /* NSString+HKAdd.m */; };
+		AB30F3400BA3DEC21BD4CB93A1D7C8BC /* HKCommonModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DCF3BB3B93A809F9C0C50752AD27E9 /* HKCommonModule.framework */; };
+		AB8A5BBE7FA1247D1165191180CE4C40 /* HKCommonModuleHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 150F50CA978C229A0088CD2FECF56C98 /* HKCommonModuleHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9C5FEF2DACFD9505A0AD2A045B6632 /* HKCommonModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 407261362C8C2EEE69C462BC56DE446D /* HKCommonModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBFCBE0C0B0DEA1C9F99750E998E12F6 /* UIImageView+HKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFD157AED493DAA62335954F67E8B5C /* UIImageView+HKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC9EE010C833E85801CD40B7B1C0B0C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C95C4F5576B82032DA2368B302F7DA /* Foundation.framework */; };
+		C32C49C8F75942B54270F677B76BE9BB /* NSBundle+HKBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AE4460EE0F8D105066844582429AE1 /* NSBundle+HKBundle.m */; };
+		C5552BA2E1BD1788C393B36D93B73EE0 /* Pods-HKRouterModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37963222730918A0E30935A1519E7160 /* Pods-HKRouterModule_Example-dummy.m */; };
+		C93F719E9826E8B5C5414000E783ED90 /* HKCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = D847D0BBED6ACC9B83080DF49B4AFEFE /* HKCommonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA929381179712E01D487252E2076E10 /* NSString+HKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 90B987D10D6B5A144611F0CB62055F61 /* NSString+HKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAB8272D5308F2F0A7F71F2B338EF3E8 /* HKGCDCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = B1A2F7DFFD0711241193BB0DB56617C1 /* HKGCDCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2CC62CDE3B1A8C18B3A6A276AF1AC9 /* UIColor+HKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = DBEAE55420B121F507655F0C03642CE0 /* UIColor+HKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF709CD079DE148DCB99E8E06F7EFB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C95C4F5576B82032DA2368B302F7DA /* Foundation.framework */; };
+		DADBC0BA13D44CBFBE7D6199A70A3815 /* UIStoryboard+HKStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B5F4F8E3899FE2FAEE438075655485 /* UIStoryboard+HKStoryboard.m */; };
+		DE631A245A6C1C5F4DB7F63DF2202592 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C95C4F5576B82032DA2368B302F7DA /* Foundation.framework */; };
+		E0F77A44A3D99127DACB9311A3E0CE05 /* UIView+HKAddView.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D11C3AFC93F9F4D5BF189220F89D09 /* UIView+HKAddView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBFCC1A9277E8ED702784E4E59FBCE4C /* HKRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3112DB244509F34B96030CC97EB12958 /* HKRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11BBD248678E490E8BB7855691E96BD /* HKGCDCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6425563A1027D93F23E751815E7D0C /* HKGCDCommon.m */; };
+		F916C8A26595B925AB8E5211B5B24539 /* Pods-HKRouterModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 848752A6E086F6EF52AFB51CB1B6F55E /* Pods-HKRouterModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		85629BE8C7E5A1A33362C758110FCE83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 039C16837489BFC516964D66A9C6B666;
+			remoteInfo = HKRouterModule;
+		};
 		96D93BAFD916D6DA9FCD1135BDA4EDA5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -28,57 +57,98 @@
 			remoteGlobalIDString = F4844CDCF66B2751F7689D80D93B074B;
 			remoteInfo = "Pods-HKRouterModule_Example";
 		};
-		D867B3B001A8373144532F87E3C67149 /* PBXContainerItemProxy */ = {
+		BAE3A17F29A2296C997B481D53B6293D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 039C16837489BFC516964D66A9C6B666;
-			remoteInfo = HKRouterModule;
+			remoteGlobalIDString = 1F198708EA504FEF209A1A85E3F648B6;
+			remoteInfo = HKCommonModule;
+		};
+		F73C5BA6378EC4D28317F59150C301D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F198708EA504FEF209A1A85E3F648B6;
+			remoteInfo = HKCommonModule;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031630F35F2A48D09F3CA406431768D4 /* HKCommonModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HKCommonModule.modulemap; sourceTree = "<group>"; };
+		04AA2052D53F76EB688A64794B3177D7 /* HKCommonModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKCommonModule.xcconfig; sourceTree = "<group>"; };
 		07283FF2A38D4E4FFBD25CD8E8156BFD /* HKRouterModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKRouterModule.xcconfig; sourceTree = "<group>"; };
 		0B838886A0B7D892A403B04DCEC8905C /* Pods-HKRouterModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKRouterModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		134B53C7083C21C67DFA782D41519512 /* Pods-HKRouterModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKRouterModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		150F50CA978C229A0088CD2FECF56C98 /* HKCommonModuleHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKCommonModuleHeader.h; path = HKCommonModule/Classes/HKCommonModuleHeader.h; sourceTree = "<group>"; };
+		154D3C742281FECC6CF52D7F276233B6 /* UIColor+HKColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HKColor.m"; path = "HKCommonModule/Classes/HKCategory/UIColor+HKColor.m"; sourceTree = "<group>"; };
 		1700DE196A226A67EA68BEF96B7B5FC9 /* HKRouterModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKRouterModule-umbrella.h"; sourceTree = "<group>"; };
 		1B27FED7C77B07213DE18AA1858E5578 /* HKRouterModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HKRouterModule.modulemap; sourceTree = "<group>"; };
 		1D41F963B5067EA3422AE60EA015BCCB /* Pods-HKRouterModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKRouterModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		23D11C3AFC93F9F4D5BF189220F89D09 /* UIView+HKAddView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HKAddView.h"; path = "HKCommonModule/Classes/HKCategory/UIView+HKAddView.h"; sourceTree = "<group>"; };
+		241C54BD5B175A0FB6586330C15D03F5 /* HKCommonModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKCommonModule-prefix.pch"; sourceTree = "<group>"; };
 		24ED396CA860E790B78C6E15C47666B2 /* Pods-HKRouterModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKRouterModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28A842B1A41B451BBF965D5B20BC8285 /* Pods-HKRouterModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKRouterModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		28A99747790160895389CFD62A49C0B4 /* Pods-HKRouterModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKRouterModule_Example-Info.plist"; sourceTree = "<group>"; };
 		3112DB244509F34B96030CC97EB12958 /* HKRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKRouter.h; path = HKRouterModule/Classes/HKRouter/HKRouter.h; sourceTree = "<group>"; };
 		3203BC089F300E34AD98EFAA828B29F8 /* Pods-HKRouterModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HKRouterModule_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32F880F86DFE8F061441445ACAAE0F94 /* NSBundle+HKBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+HKBundle.h"; path = "HKCommonModule/Classes/HKCategory/NSBundle+HKBundle.h"; sourceTree = "<group>"; };
 		37963222730918A0E30935A1519E7160 /* Pods-HKRouterModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKRouterModule_Example-dummy.m"; sourceTree = "<group>"; };
+		407261362C8C2EEE69C462BC56DE446D /* HKCommonModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKCommonModule-umbrella.h"; sourceTree = "<group>"; };
 		40DD43C9771B59E46128A2ED567CEFD4 /* HKRouterModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HKRouterModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4315448944D8995B02B4ACF3B66E3B51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		45DCF3BB3B93A809F9C0C50752AD27E9 /* HKCommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HKCommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B76C284608DA0813842AFA2C44290C /* HKRouterModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HKRouterModule-Info.plist"; sourceTree = "<group>"; };
 		50A0A3FFA17D47213012380E13AA6CCE /* Pods-HKRouterModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKRouterModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		52F70D839F7BD44376FF74CCE505688E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		58B5F4F8E3899FE2FAEE438075655485 /* UIStoryboard+HKStoryboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+HKStoryboard.m"; path = "HKCommonModule/Classes/HKCategory/UIStoryboard+HKStoryboard.m"; sourceTree = "<group>"; };
 		5FD1D246C7C0F3AFA82B828491610ECC /* Pods-HKRouterModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKRouterModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6E9499038BE8BAE2B2C518A24D932919 /* HKCommonModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HKCommonModule-Info.plist"; sourceTree = "<group>"; };
 		70170623E9D0C60B1B5181365B2E70ED /* Pods-HKRouterModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKRouterModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		73C95C4F5576B82032DA2368B302F7DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A0AC52C4924DF8C7B8D12E34543F414 /* Pods_HKRouterModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKRouterModule_Example.framework; path = "Pods-HKRouterModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5F80EA9750313032A42C680DC1E947 /* UIStoryboard+HKStoryboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+HKStoryboard.h"; path = "HKCommonModule/Classes/HKCategory/UIStoryboard+HKStoryboard.h"; sourceTree = "<group>"; };
 		848752A6E086F6EF52AFB51CB1B6F55E /* Pods-HKRouterModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKRouterModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		8740412377BDD17FB8FA66B6B832FCC0 /* UIImageView+HKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HKAdd.m"; path = "HKCommonModule/Classes/HKCategory/UIImageView+HKAdd.m"; sourceTree = "<group>"; };
 		87F5E75FE147BC6BB95A0EACCB81037E /* Pods_HKRouterModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKRouterModule_Tests.framework; path = "Pods-HKRouterModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		882CC86E3E736416EC759954F9C46268 /* UIView+HKAddView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HKAddView.m"; path = "HKCommonModule/Classes/HKCategory/UIView+HKAddView.m"; sourceTree = "<group>"; };
 		8D569655960F902ADC8DCF68552D5AEF /* Pods-HKRouterModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKRouterModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8DFCAD70836BD33349BDAE86771E6D9C /* Pods-HKRouterModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKRouterModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		90B987D10D6B5A144611F0CB62055F61 /* NSString+HKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HKAdd.h"; path = "HKCommonModule/Classes/HKCategory/NSString+HKAdd.h"; sourceTree = "<group>"; };
+		936A0A9188C947275FCEA803D60ECE98 /* NSString+HKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HKAdd.m"; path = "HKCommonModule/Classes/HKCategory/NSString+HKAdd.m"; sourceTree = "<group>"; };
+		93AE4460EE0F8D105066844582429AE1 /* NSBundle+HKBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+HKBundle.m"; path = "HKCommonModule/Classes/HKCategory/NSBundle+HKBundle.m"; sourceTree = "<group>"; };
 		9B48D1E08FA8021675D1545228BEFC0E /* HKRouterModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKRouterModule-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC6DF8F8F9D19B491396952D09D4E33 /* Pods-HKRouterModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKRouterModule_Example.modulemap"; sourceTree = "<group>"; };
+		9DFA241910D22822A479021AAAE5AC70 /* HKCommonModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HKCommonModule.framework; path = HKCommonModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA931B310B221A722EA9CFC50295E2A0 /* HKCommonModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKCommonModule-dummy.m"; sourceTree = "<group>"; };
+		B1A2F7DFFD0711241193BB0DB56617C1 /* HKGCDCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKGCDCommon.h; path = HKCommonModule/Classes/HKCommon/HKGCDCommon.h; sourceTree = "<group>"; };
 		C93724F18535F5EF311599E6F74C52EC /* HKRouterModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HKRouterModule.framework; path = HKRouterModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7F198F5D9E72BF9802A4E28F2E3F00 /* Pods-HKRouterModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKRouterModule_Tests.modulemap"; sourceTree = "<group>"; };
 		CAF78986C8B3584E740FE7CC55AA1B13 /* HKRouterModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKRouterModule-prefix.pch"; sourceTree = "<group>"; };
+		CAFD157AED493DAA62335954F67E8B5C /* UIImageView+HKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HKAdd.h"; path = "HKCommonModule/Classes/HKCategory/UIImageView+HKAdd.h"; sourceTree = "<group>"; };
+		D847D0BBED6ACC9B83080DF49B4AFEFE /* HKCommonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HKCommonDefine.h; path = HKCommonModule/Classes/HKCommon/HKCommonDefine.h; sourceTree = "<group>"; };
+		D94030D31BA39732C92862CB6D9634EF /* UIImage+HKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HKAdd.m"; path = "HKCommonModule/Classes/HKCategory/UIImage+HKAdd.m"; sourceTree = "<group>"; };
 		DA846D2A9335CC47C46930FBE49B158C /* HKRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKRouter.m; path = HKRouterModule/Classes/HKRouter/HKRouter.m; sourceTree = "<group>"; };
+		DBEAE55420B121F507655F0C03642CE0 /* UIColor+HKColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HKColor.h"; path = "HKCommonModule/Classes/HKCategory/UIColor+HKColor.h"; sourceTree = "<group>"; };
+		DFF69354EB6800296DEE7968C6CDE73E /* UIImage+HKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HKAdd.h"; path = "HKCommonModule/Classes/HKCategory/UIImage+HKAdd.h"; sourceTree = "<group>"; };
 		EC22CD7FE1F0057C13C7DABCEB12501E /* Pods-HKRouterModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKRouterModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC6425563A1027D93F23E751815E7D0C /* HKGCDCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HKGCDCommon.m; path = HKCommonModule/Classes/HKCommon/HKGCDCommon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B82F5D1F26D7C5D66EC51E4F552E185 /* Frameworks */ = {
+		1A5F692965072D3135BF020827060E21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28315178BEDAD86CFAAAA8D1EE0E746B /* Foundation.framework in Frameworks */,
+				CF709CD079DE148DCB99E8E06F7EFB92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51CE66A5C72C2B114CE1E846F2CDC146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE631A245A6C1C5F4DB7F63DF2202592 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,11 +160,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC4EE7370495769582EADCAD9AF89013 /* Frameworks */ = {
+		EA442A3BD581179F9CBC38612AF08ADC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1FA022795BBB5237BA7847E4E8B75A1 /* Foundation.framework in Frameworks */,
+				7F2F30A0452CFE81E73EAA7A48A2AE90 /* Foundation.framework in Frameworks */,
+				AB30F3400BA3DEC21BD4CB93A1D7C8BC /* HKCommonModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +188,23 @@
 			path = "Target Support Files/Pods-HKRouterModule_Tests";
 			sourceTree = "<group>";
 		};
+		04367244177D6F0BB6AD643028412A39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B94FECD9C8748DB156E0635F1E3E4A39 /* HKCommonModule */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		17BF07283AE414485613207BF8EC991A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45DCF3BB3B93A809F9C0C50752AD27E9 /* HKCommonModule.framework */,
+				D2AE61A53CB894C2A4679159150E009D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2277D527B60AB13CAFF1A0DA7270EB6C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,9 +213,10 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2360D06627ACD21453AB17B3D18B9D9F /* Products */ = {
+		70F407AEA23527E06465F62BE33CD320 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				9DFA241910D22822A479021AAAE5AC70 /* HKCommonModule.framework */,
 				C93724F18535F5EF311599E6F74C52EC /* HKRouterModule.framework */,
 				7A0AC52C4924DF8C7B8D12E34543F414 /* Pods_HKRouterModule_Example.framework */,
 				87F5E75FE147BC6BB95A0EACCB81037E /* Pods_HKRouterModule_Tests.framework */,
@@ -147,6 +236,27 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HKRouterModule";
+			sourceTree = "<group>";
+		};
+		96AC0DAF88987AD6EC0C30F57FE43922 /* HKCategory */ = {
+			isa = PBXGroup;
+			children = (
+				32F880F86DFE8F061441445ACAAE0F94 /* NSBundle+HKBundle.h */,
+				93AE4460EE0F8D105066844582429AE1 /* NSBundle+HKBundle.m */,
+				90B987D10D6B5A144611F0CB62055F61 /* NSString+HKAdd.h */,
+				936A0A9188C947275FCEA803D60ECE98 /* NSString+HKAdd.m */,
+				DBEAE55420B121F507655F0C03642CE0 /* UIColor+HKColor.h */,
+				154D3C742281FECC6CF52D7F276233B6 /* UIColor+HKColor.m */,
+				DFF69354EB6800296DEE7968C6CDE73E /* UIImage+HKAdd.h */,
+				D94030D31BA39732C92862CB6D9634EF /* UIImage+HKAdd.m */,
+				CAFD157AED493DAA62335954F67E8B5C /* UIImageView+HKAdd.h */,
+				8740412377BDD17FB8FA66B6B832FCC0 /* UIImageView+HKAdd.m */,
+				7D5F80EA9750313032A42C680DC1E947 /* UIStoryboard+HKStoryboard.h */,
+				58B5F4F8E3899FE2FAEE438075655485 /* UIStoryboard+HKStoryboard.m */,
+				23D11C3AFC93F9F4D5BF189220F89D09 /* UIView+HKAddView.h */,
+				882CC86E3E736416EC759954F9C46268 /* UIView+HKAddView.m */,
+			);
+			name = HKCategory;
 			sourceTree = "<group>";
 		};
 		A89976B38B6A2501E7D6BE888A3FC554 /* Pods-HKRouterModule_Example */ = {
@@ -176,12 +286,26 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		B94FECD9C8748DB156E0635F1E3E4A39 /* HKCommonModule */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				150F50CA978C229A0088CD2FECF56C98 /* HKCommonModuleHeader.h */,
+				96AC0DAF88987AD6EC0C30F57FE43922 /* HKCategory */,
+				C045A1DC6C9B7FFEC1562D415D84BB2A /* HKCommon */,
+				E1E153A5B1D2DB7A3E4FDF3A8E35C26F /* Support Files */,
 			);
-			name = iOS;
+			name = HKCommonModule;
+			path = HKCommonModule;
+			sourceTree = "<group>";
+		};
+		C045A1DC6C9B7FFEC1562D415D84BB2A /* HKCommon */ = {
+			isa = PBXGroup;
+			children = (
+				D847D0BBED6ACC9B83080DF49B4AFEFE /* HKCommonDefine.h */,
+				B1A2F7DFFD0711241193BB0DB56617C1 /* HKGCDCommon.h */,
+				EC6425563A1027D93F23E751815E7D0C /* HKGCDCommon.m */,
+			);
+			name = HKCommon;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -189,18 +313,33 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				2277D527B60AB13CAFF1A0DA7270EB6C /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2360D06627ACD21453AB17B3D18B9D9F /* Products */,
+				17BF07283AE414485613207BF8EC991A /* Frameworks */,
+				04367244177D6F0BB6AD643028412A39 /* Pods */,
+				70F407AEA23527E06465F62BE33CD320 /* Products */,
 				FC3191F94036E7E20BC6194917428D2A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D2AE61A53CB894C2A4679159150E009D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				73C95C4F5576B82032DA2368B302F7DA /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1E153A5B1D2DB7A3E4FDF3A8E35C26F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				031630F35F2A48D09F3CA406431768D4 /* HKCommonModule.modulemap */,
+				04AA2052D53F76EB688A64794B3177D7 /* HKCommonModule.xcconfig */,
+				AA931B310B221A722EA9CFC50295E2A0 /* HKCommonModule-dummy.m */,
+				6E9499038BE8BAE2B2C518A24D932919 /* HKCommonModule-Info.plist */,
+				241C54BD5B175A0FB6586330C15D03F5 /* HKCommonModule-prefix.pch */,
+				407261362C8C2EEE69C462BC56DE446D /* HKCommonModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HKCommonModule";
 			sourceTree = "<group>";
 		};
 		F93D63AD4C8F2B6DB5DD333EAF8B8758 /* HKRouterModule */ = {
@@ -227,6 +366,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		451C139A1FF643751471EAD277A7151E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F916C8A26595B925AB8E5211B5B24539 /* Pods-HKRouterModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55046D8910F6E31A6DE8135D09F125CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93F719E9826E8B5C5414000E783ED90 /* HKCommonDefine.h in Headers */,
+				AD9C5FEF2DACFD9505A0AD2A045B6632 /* HKCommonModule-umbrella.h in Headers */,
+				AB8A5BBE7FA1247D1165191180CE4C40 /* HKCommonModuleHeader.h in Headers */,
+				CAB8272D5308F2F0A7F71F2B338EF3E8 /* HKGCDCommon.h in Headers */,
+				5CA8B9EC149E1C71691AF9392563355A /* NSBundle+HKBundle.h in Headers */,
+				CA929381179712E01D487252E2076E10 /* NSString+HKAdd.h in Headers */,
+				CE2CC62CDE3B1A8C18B3A6A276AF1AC9 /* UIColor+HKColor.h in Headers */,
+				2BD04AA628C9157E99AB970A35D274FB /* UIImage+HKAdd.h in Headers */,
+				BBFCBE0C0B0DEA1C9F99750E998E12F6 /* UIImageView+HKAdd.h in Headers */,
+				964D00FBF61FBB074D559F0107A3FA54 /* UIStoryboard+HKStoryboard.h in Headers */,
+				E0F77A44A3D99127DACB9311A3E0CE05 /* UIView+HKAddView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC0D4D70DF869598572A327AE73523F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,20 +400,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECE7C677037995CDEBCBE2ADF9CC3E10 /* Headers */ = {
+		D7563F52F19CC4F39E301F99C5E331CF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A1E80BB1FF77718DFEB44EB49B2A6C /* HKRouter.h in Headers */,
-				05B1B45711DBF0562EBA2CFC332F61B6 /* HKRouterModule-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8C3573DB41CF639BECBD2440223E157 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6738B50B59F04DFB4137BA3FC739596 /* Pods-HKRouterModule_Example-umbrella.h in Headers */,
+				EBFCC1A9277E8ED702784E4E59FBCE4C /* HKRouter.h in Headers */,
+				6E92B453152089EB1D9F342BDA9AE1D0 /* HKRouterModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,16 +414,17 @@
 /* Begin PBXNativeTarget section */
 		039C16837489BFC516964D66A9C6B666 /* HKRouterModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE6609838E2792710DF5203A09D26783 /* Build configuration list for PBXNativeTarget "HKRouterModule" */;
+			buildConfigurationList = C55404705603E7E2E7B8619BE5F8B6A2 /* Build configuration list for PBXNativeTarget "HKRouterModule" */;
 			buildPhases = (
-				ECE7C677037995CDEBCBE2ADF9CC3E10 /* Headers */,
-				763F4A7D7FC32D77E2AEBE012ACFBA7F /* Sources */,
-				6B82F5D1F26D7C5D66EC51E4F552E185 /* Frameworks */,
-				F4BD6C5E7A2ACA5A92C894760B54437E /* Resources */,
+				D7563F52F19CC4F39E301F99C5E331CF /* Headers */,
+				ECBFC4F1132B8B4FA4584D8921FCFED5 /* Sources */,
+				EA442A3BD581179F9CBC38612AF08ADC /* Frameworks */,
+				AB35F51BCBA5FE7A24E0E879EF321777 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AF06CECFB371AC861ACF5603563BD42D /* PBXTargetDependency */,
 			);
 			name = HKRouterModule;
 			productName = HKRouterModule;
@@ -292,19 +450,38 @@
 			productReference = 87F5E75FE147BC6BB95A0EACCB81037E /* Pods_HKRouterModule_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F4844CDCF66B2751F7689D80D93B074B /* Pods-HKRouterModule_Example */ = {
+		1F198708EA504FEF209A1A85E3F648B6 /* HKCommonModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2923A09FB9B783DE68AF9FA5D8AED304 /* Build configuration list for PBXNativeTarget "Pods-HKRouterModule_Example" */;
+			buildConfigurationList = 7FE6EBC555591D05C8A7C3BEA0E415A6 /* Build configuration list for PBXNativeTarget "HKCommonModule" */;
 			buildPhases = (
-				F8C3573DB41CF639BECBD2440223E157 /* Headers */,
-				D9BEC5295EDBC2D38D65BAAF81F59844 /* Sources */,
-				EC4EE7370495769582EADCAD9AF89013 /* Frameworks */,
-				14622B175843CF5F994CB6185F949415 /* Resources */,
+				55046D8910F6E31A6DE8135D09F125CA /* Headers */,
+				49A4A1067F29E52D351326195390E5B6 /* Sources */,
+				51CE66A5C72C2B114CE1E846F2CDC146 /* Frameworks */,
+				CECB9AF051D08D74BC880E02A614C11B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6194DE675D5546B5BA29C4C1303BEDD0 /* PBXTargetDependency */,
+			);
+			name = HKCommonModule;
+			productName = HKCommonModule;
+			productReference = 9DFA241910D22822A479021AAAE5AC70 /* HKCommonModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4844CDCF66B2751F7689D80D93B074B /* Pods-HKRouterModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A725913709507494FBE8D929599B3D9 /* Build configuration list for PBXNativeTarget "Pods-HKRouterModule_Example" */;
+			buildPhases = (
+				451C139A1FF643751471EAD277A7151E /* Headers */,
+				4ADB4312CFDA629445345FF1AD965860 /* Sources */,
+				1A5F692965072D3135BF020827060E21 /* Frameworks */,
+				4F17F33BC5BC31D14855B20F08624B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B794D30B2BCEBC5E38CE2EE2B602DF9 /* PBXTargetDependency */,
+				BAD476C8192050CB5D82657637164239 /* PBXTargetDependency */,
 			);
 			name = "Pods-HKRouterModule_Example";
 			productName = "Pods-HKRouterModule_Example";
@@ -328,10 +505,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2360D06627ACD21453AB17B3D18B9D9F /* Products */;
+			productRefGroup = 70F407AEA23527E06465F62BE33CD320 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				1F198708EA504FEF209A1A85E3F648B6 /* HKCommonModule */,
 				039C16837489BFC516964D66A9C6B666 /* HKRouterModule */,
 				F4844CDCF66B2751F7689D80D93B074B /* Pods-HKRouterModule_Example */,
 				1C1C9B461060CE11BA834CFDDAA6395C /* Pods-HKRouterModule_Tests */,
@@ -340,7 +518,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14622B175843CF5F994CB6185F949415 /* Resources */ = {
+		4F17F33BC5BC31D14855B20F08624B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB35F51BCBA5FE7A24E0E879EF321777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CECB9AF051D08D74BC880E02A614C11B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,22 +546,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4BD6C5E7A2ACA5A92C894760B54437E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		763F4A7D7FC32D77E2AEBE012ACFBA7F /* Sources */ = {
+		49A4A1067F29E52D351326195390E5B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A36E49051ACEAD9753B0261AE6C646 /* HKRouter.m in Sources */,
-				5F33A0FE994934DA716E230D985922E9 /* HKRouterModule-dummy.m in Sources */,
+				368DF3AF944EC2DDE7E3A9D7F6412F9C /* HKCommonModule-dummy.m in Sources */,
+				F11BBD248678E490E8BB7855691E96BD /* HKGCDCommon.m in Sources */,
+				C32C49C8F75942B54270F677B76BE9BB /* NSBundle+HKBundle.m in Sources */,
+				A581DFC3ADA9959495D1EC7933DA08A3 /* NSString+HKAdd.m in Sources */,
+				78DE3B629DB9B254355CD6E4216854DC /* UIColor+HKColor.m in Sources */,
+				555FFE2DD0BB906E2D435E292ECCC949 /* UIImage+HKAdd.m in Sources */,
+				08B96D73E90EAD63A4C669CD4E0FFD27 /* UIImageView+HKAdd.m in Sources */,
+				DADBC0BA13D44CBFBE7D6199A70A3815 /* UIStoryboard+HKStoryboard.m in Sources */,
+				9675ED20880FC7D1519F7056F0E8A2D8 /* UIView+HKAddView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ADB4312CFDA629445345FF1AD965860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5552BA2E1BD1788C393B36D93B73EE0 /* Pods-HKRouterModule_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,22 +581,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9BEC5295EDBC2D38D65BAAF81F59844 /* Sources */ = {
+		ECBFC4F1132B8B4FA4584D8921FCFED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B4C064A9B4D48FE987DC79536B2E30 /* Pods-HKRouterModule_Example-dummy.m in Sources */,
+				89A1E91CA343860748D13E79BF8DBA39 /* HKRouter.m in Sources */,
+				3826A053C21CBA2CD41337B6AE7D80F1 /* HKRouterModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6194DE675D5546B5BA29C4C1303BEDD0 /* PBXTargetDependency */ = {
+		6B794D30B2BCEBC5E38CE2EE2B602DF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HKRouterModule;
-			target = 039C16837489BFC516964D66A9C6B666 /* HKRouterModule */;
-			targetProxy = D867B3B001A8373144532F87E3C67149 /* PBXContainerItemProxy */;
+			name = HKCommonModule;
+			target = 1F198708EA504FEF209A1A85E3F648B6 /* HKCommonModule */;
+			targetProxy = F73C5BA6378EC4D28317F59150C301D9 /* PBXContainerItemProxy */;
+		};
+		AF06CECFB371AC861ACF5603563BD42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HKCommonModule;
+			target = 1F198708EA504FEF209A1A85E3F648B6 /* HKCommonModule */;
+			targetProxy = BAE3A17F29A2296C997B481D53B6293D /* PBXContainerItemProxy */;
 		};
 		B649DD72F555A3372FE77FDA3335A91D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -404,9 +611,80 @@
 			target = F4844CDCF66B2751F7689D80D93B074B /* Pods-HKRouterModule_Example */;
 			targetProxy = 96D93BAFD916D6DA9FCD1135BDA4EDA5 /* PBXContainerItemProxy */;
 		};
+		BAD476C8192050CB5D82657637164239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HKRouterModule;
+			target = 039C16837489BFC516964D66A9C6B666 /* HKRouterModule */;
+			targetProxy = 85629BE8C7E5A1A33362C758110FCE83 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0380826C677998FFDEE2EC788B15BBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07283FF2A38D4E4FFBD25CD8E8156BFD /* HKRouterModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HKRouterModule/HKRouterModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKRouterModule/HKRouterModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKRouterModule/HKRouterModule.modulemap";
+				PRODUCT_MODULE_NAME = HKRouterModule;
+				PRODUCT_NAME = HKRouterModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C95FBC5E024BCAF862D96491CA2B178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50A0A3FFA17D47213012380E13AA6CCE /* Pods-HKRouterModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -500,6 +778,71 @@
 			};
 			name = Debug;
 		};
+		6A0C2A35158E584AA9091E49D7F8BC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24ED396CA860E790B78C6E15C47666B2 /* Pods-HKRouterModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77319CCD66E2B82EDC3AA87DF584E501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07283FF2A38D4E4FFBD25CD8E8156BFD /* HKRouterModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HKRouterModule/HKRouterModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKRouterModule/HKRouterModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HKRouterModule/HKRouterModule.modulemap";
+				PRODUCT_MODULE_NAME = HKRouterModule;
+				PRODUCT_NAME = HKRouterModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -564,9 +907,9 @@
 			};
 			name = Debug;
 		};
-		8C3F578FAC3ED2A79575B97FDFB475C8 /* Debug */ = {
+		9EEC5C3DD6496ABCC13A026626CB282B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07283FF2A38D4E4FFBD25CD8E8156BFD /* HKRouterModule.xcconfig */;
+			baseConfigurationReference = 04AA2052D53F76EB688A64794B3177D7 /* HKCommonModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -577,14 +920,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HKRouterModule/HKRouterModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HKRouterModule/HKRouterModule-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HKCommonModule/HKCommonModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKCommonModule/HKCommonModule-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HKRouterModule/HKRouterModule.modulemap";
-				PRODUCT_MODULE_NAME = HKRouterModule;
-				PRODUCT_NAME = HKRouterModule;
+				MODULEMAP_FILE = "Target Support Files/HKCommonModule/HKCommonModule.modulemap";
+				PRODUCT_MODULE_NAME = HKCommonModule;
+				PRODUCT_NAME = HKCommonModule;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -594,73 +937,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8DF9C72775B23B8D49658E61732B850A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24ED396CA860E790B78C6E15C47666B2 /* Pods-HKRouterModule_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD4E16C3465F12B3386AF7BE12A2A069 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50A0A3FFA17D47213012380E13AA6CCE /* Pods-HKRouterModule_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E0FFE8F2D55A430E1C6FE7B9228C207A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -696,9 +972,9 @@
 			};
 			name = Release;
 		};
-		E56470DAE3019FF5C4F84E00B5DF1251 /* Release */ = {
+		F7D97E2F286AAB048DD3A09AD32F9761 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07283FF2A38D4E4FFBD25CD8E8156BFD /* HKRouterModule.xcconfig */;
+			baseConfigurationReference = 04AA2052D53F76EB688A64794B3177D7 /* HKCommonModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -709,14 +985,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HKRouterModule/HKRouterModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HKRouterModule/HKRouterModule-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HKCommonModule/HKCommonModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKCommonModule/HKCommonModule-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HKRouterModule/HKRouterModule.modulemap";
-				PRODUCT_MODULE_NAME = HKRouterModule;
-				PRODUCT_NAME = HKRouterModule;
+				MODULEMAP_FILE = "Target Support Files/HKCommonModule/HKCommonModule.modulemap";
+				PRODUCT_MODULE_NAME = HKCommonModule;
+				PRODUCT_NAME = HKCommonModule;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -731,11 +1007,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2923A09FB9B783DE68AF9FA5D8AED304 /* Build configuration list for PBXNativeTarget "Pods-HKRouterModule_Example" */ = {
+		0A725913709507494FBE8D929599B3D9 /* Build configuration list for PBXNativeTarget "Pods-HKRouterModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8DF9C72775B23B8D49658E61732B850A /* Debug */,
-				CD4E16C3465F12B3386AF7BE12A2A069 /* Release */,
+				6A0C2A35158E584AA9091E49D7F8BC17 /* Debug */,
+				1C95FBC5E024BCAF862D96491CA2B178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,11 +1025,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE6609838E2792710DF5203A09D26783 /* Build configuration list for PBXNativeTarget "HKRouterModule" */ = {
+		7FE6EBC555591D05C8A7C3BEA0E415A6 /* Build configuration list for PBXNativeTarget "HKCommonModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3F578FAC3ED2A79575B97FDFB475C8 /* Debug */,
-				E56470DAE3019FF5C4F84E00B5DF1251 /* Release */,
+				9EEC5C3DD6496ABCC13A026626CB282B /* Debug */,
+				F7D97E2F286AAB048DD3A09AD32F9761 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55404705603E7E2E7B8619BE5F8B6A2 /* Build configuration list for PBXNativeTarget "HKRouterModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0380826C677998FFDEE2EC788B15BBE4 /* Debug */,
+				77319CCD66E2B82EDC3AA87DF584E501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

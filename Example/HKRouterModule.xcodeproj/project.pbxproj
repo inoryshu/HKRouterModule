@@ -326,10 +326,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HKRouterModule_Example/Pods-HKRouterModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HKCommonModule/HKCommonModule.framework",
 				"${BUILT_PRODUCTS_DIR}/HKRouterModule/HKRouterModule.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HKCommonModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HKRouterModule.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

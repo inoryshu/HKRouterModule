@@ -6,23 +6,9 @@
 //
 
 #import "HKRouter.h"
-// MARK: LOG输出
-#ifdef DEBUG
-//#define WLog(...)
-#define WLog(...) NSLog(@"\n\n✅\n %s %d行 \n\n %@ \n\n.",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
-#else
-#define WLog(...)
-#endif
-@implementation HKRouter
+#import "HKCommonModuleHeader.h"
 
-// MARK: 主线程
-void dispatchMainQueue(void (^block)(void)) {
-    if ([NSThread isMainThread]) {
-        block();
-    } else {
-        dispatch_async(dispatch_get_main_queue(), block);
-    }
-}
+@implementation HKRouter
 
 +(id)GetContrller:(NSString *)vcName{
     return [HKRouter GetContrller:vcName parameter:nil];
@@ -41,8 +27,8 @@ void dispatchMainQueue(void (^block)(void)) {
 +(id)GetContrller:(NSString *)vcName fromSB:(NSString*)SBName{
     return [HKRouter GetContrller:vcName parameter:nil fromSB:SBName];
 }
-+(id)GetContrller:(NSString *)vcName parameter:(NSDictionary *)parameter  fromSB:(NSString*)SBName{
-    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:SBName bundle:nil];
++(id)GetContrller:(NSString *)vcName parameter:(NSDictionary *)parameter fromSB:(NSString*)SBName{
+    UIStoryboard *storyBoard = [UIStoryboard HKStoryboardWithName:SBName];
     UIViewController *vc = [storyBoard instantiateViewControllerWithIdentifier:vcName];
     return [HKRouter GetViewController:vc parameter:parameter];
 
