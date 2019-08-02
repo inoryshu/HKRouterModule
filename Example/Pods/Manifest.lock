@@ -1,5 +1,5 @@
 PODS:
-  - HKRouterModule (0.1.0)
+  - HKRouterModule (0.1.4)
 
 DEPENDENCIES:
   - HKRouterModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HKRouterModule: 1a0f1647c521f0cd58fed2087062733dcf626389
+  HKRouterModule: d2fdeec7372b0a43a6efc577517a1eefc71c3ee9
 
 PODFILE CHECKSUM: 98b191b85c097a5bb24d1ce66b7ade570bfc1738
 
